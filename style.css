@@ -1,0 +1,69 @@
+html, body{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: "godic";
+}
+
+#half{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#left{
+    background-color: black;
+    height: 100vh;
+    background-image: url(img/main.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#right{
+    display: grid;
+    grid-template-rows: auto 3fr 1fr;
+}
+
+#start{
+    padding: 4vh;
+    place-items: center;
+    text-align: center;
+    width: auto;
+}
+
+#logo{
+    max-width: 40%;
+    height: auto;
+}
+
+h1, h2{
+    font-family: "godic";
+    font-size: 50px;
+    margin: 0;
+}
+
+#login{
+    position: table;
+    bottom: 0;
+    padding: 3vh;
+}
+
+.button {
+    font-size: large;
+    background-color: #1b1b1b;
+    color: #ffffff;
+    width: 100%;
+    height: 7vh;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.button:hover{
+    background: #8e8e8e;
+}
+
+@font-face {
+    font-family: "godic";
+    src: url(fonts/a고딕14.ttf);
+}
+
