@@ -19,14 +19,18 @@ html, body{
     background-size: cover;
 }
 
-#right{
+#mainright{
     display: grid;
-    grid-template-rows: auto 3fr 1fr;
+    grid-template-rows: auto 1fr auto;
+}
+
+#signupright{
+    display: grid;
+    grid-template-rows: auto 1fr auto auto;
 }
 
 #start{
     padding: 4vh;
-    place-items: center;
     text-align: center;
     width: auto;
 }
@@ -36,10 +40,20 @@ html, body{
     height: auto;
 }
 
-h1, h2{
+h1{
     font-family: "godic";
-    font-size: 50px;
+    font-size: 80px;
     margin: 0;
+}
+
+h2{
+    font-family: "godic";
+    font-size: 30px;
+    margin:0;
+}
+
+#signupinfo{
+    text-align: center;
 }
 
 #login{
@@ -56,12 +70,34 @@ h1, h2{
     height: 7vh;
     border-radius: 10px;
     transition: 1s;
+    font-family: "godic";
 }
 
 .button:hover{
     background: #8e8e8e;
 }
 
+.textbox{
+    width: 80%;
+    height: 4vh;
+    font-size: 150%;
+    font-family: "godic";
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.textbox:hover{
+    background-color: #dadada;
+}
+#signup{
+    text-align: center;
+}
+
+#signupbutton{
+    position: table;
+    bottom: 0;
+    padding: 3vh;
+}
 @font-face {
     font-family: "godic";
     src: url(fonts/a고딕14.ttf);
