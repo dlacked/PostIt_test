@@ -28,6 +28,7 @@ html, body{
 .right{
     display: grid;
     grid-template-rows: auto 1fr auto auto;
+    height: 100vh;
 }
 
 .start{
@@ -55,7 +56,7 @@ h2{
     margin:0;
 }
 
-#signupinfo{
+#info{
     text-align: center;
 }
 
@@ -66,7 +67,7 @@ h2{
 }
 
 .button {
-    font-size: large;
+    font-size: 200%;
     background-color: #FFE27A;
     color: black;
     width: 100%;
@@ -75,6 +76,7 @@ h2{
     border-style: hidden;
     transition: 1s;
     font-family: "godic";
+
 }
 
 .button:hover{
@@ -100,7 +102,7 @@ h2{
     text-align: center;
 }
 
-#signupbutton{
+#button{
     position: table;
     bottom: 0;
     padding: 3vh;
@@ -115,5 +117,17 @@ h2{
     .half{
         display: grid;
         grid-template-columns: 0fr 1fr;
+    }
+
+    h1{
+        font-family: "godic";
+        font-size: 600%;
+        margin: 0;
+    }
+    
+    h2{
+        font-family: "godic";
+        font-size: 300%;
+        margin:0;
     }
 }
