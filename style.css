@@ -39,7 +39,7 @@ html, body{
 }
 
 #logo{
-    max-width: 60%;
+    max-width: 50%;
     height: auto;
 }
 
@@ -111,7 +111,7 @@ h2{
     src: url(fonts/a고딕14.ttf);
 }
 
-@media all and (max-width:767px) { /*mobile*/
+@media all and (max-width:1023px) { /*모바일, 테블릿 세로*/
     .half{
         display: grid;
         grid-template-columns: 0fr 1fr;
