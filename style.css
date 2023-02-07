@@ -78,6 +78,7 @@ h2{
     border-style: hidden;
     transition: 1s;
     font-family: "godic";
+    font-weight: 500;
 
 }
 
@@ -95,11 +96,13 @@ h2{
     transition: 1s;
     border-style: hidden;
     border-bottom-color: black;
+    font-weight: 500;
 }
 
 .textbox:hover{
     background-color: #FFE27A;
 }
+
 #signup{
     text-align: center;
 }
