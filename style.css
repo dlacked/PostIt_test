@@ -14,7 +14,7 @@ html, body{
 .left{ /*login, index, signup, edit_success 전용*/
     background-color: black;
     height: 100%;
-    background-image: url(../../img/main.svg);
+    background-image: url(img/main.svg);
     background-repeat: no-repeat;
     background-size: cover;
 }
